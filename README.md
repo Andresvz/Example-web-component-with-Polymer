@@ -14,3 +14,8 @@ sudo npm install polyserve -g
 bower install && polyserve
 
 And ready !
+
+
+Official documentation
+
+https://www.polymer-project.org/1.0/
