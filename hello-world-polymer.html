@@ -1,0 +1,22 @@
+<link rel="import" href="../polymer/polymer.html">
+
+
+<dom-module id="hello-world-polymer" >
+
+<template>
+<p style="color:red;">Hello, <strong>{{who}}</strong></p>
+
+</template>
+</dom-module>
+
+<script >
+Polymer({
+  is:'hello-world-polymer',
+  properties: {
+    who: {
+      type:String,
+      value:'World'
+      } 
+    }
+  });
+</script>
